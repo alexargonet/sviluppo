@@ -36,7 +36,11 @@ public class CrunchifyHelloWorld {
 	@RequestMapping(value = { "/", "/welcome" }, method = RequestMethod.GET)
     public String welcomePage(Model model) {
         model.addAttribute("title", "Welcome");
+<<<<<<< HEAD
         model.addAttribute("message", "This is welcome page!!!!");
+=======
+        model.addAttribute("message", "This is welcome page!!");
+>>>>>>> refs/remotes/origin/master
         return "welcomePage";
     }
 	
